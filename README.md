@@ -1,19 +1,11 @@
-# xxxxxx [![CircleCI](https://circleci.com/gh/shelfio/xxxxxx/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/xxxxxx/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+# aws-ssm-get-param-cli [![CircleCI](https://circleci.com/gh/shelfio/aws-ssm-get-param-cli/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/aws-ssm-get-param-cli/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
-> xxxxxx description
-
-## Install
-
-```
-$ yarn add @shelf/xxxxxx
-```
+> Fetch SSM parameter
 
 ## Usage
 
-```js
-const {getFoo} = require('@shelf/xxxxxx');
-
-getFoo();
+```
+$ export DOMAIN=$(npx @shelf/aws-ssm-get-param-cli "/prod/domain")
 ```
 
 ## Publish
