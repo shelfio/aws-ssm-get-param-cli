@@ -1,6 +1,6 @@
 {
   "name": "@shelf/aws-ssm-get-param-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "aws-ssm-get-param-cli",
   "license": "MIT",
   "author": {
