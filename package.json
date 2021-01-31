@@ -9,6 +9,9 @@
     "url": "https://shelf.io"
   },
   "main": "lib",
+  "bin": {
+    "aws-ssm-get-param-cli": "./lib/index.js"
+  },
   "files": [
     "lib"
   ],
