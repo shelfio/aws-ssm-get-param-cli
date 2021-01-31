@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import {GetParameterCommand, SSMClient} from '@aws-sdk/client-ssm';
 
 (async () => {

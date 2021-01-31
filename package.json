@@ -9,13 +9,12 @@
     "url": "https://shelf.io"
   },
   "main": "lib",
-  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
     "build": "rm -rf lib/ && yarn build:code",
-    "build:code": "babel src --out-dir lib --ignore '**/*.test.ts' --extensions '.ts' && find ./lib -name '*.test.d.ts' -delete",
+    "build:code": "webpack build",
     "lint": "eslint . --ext .js,.ts,.json --fix",
     "lint:ci": "eslint . --ext .js,.ts,.json",
     "prepack": "yarn build",
@@ -43,7 +42,6 @@
     "@aws-sdk/client-ssm": "3.4.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.10",
     "@babel/core": "7.12.10",
     "@babel/preset-env": "7.12.11",
     "@babel/preset-typescript": "7.12.7",
@@ -54,7 +52,9 @@
     "husky": "4.3.8",
     "lint-staged": "10.5.3",
     "prettier": "2.2.1",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "webpack": "5.19.0",
+    "webpack-cli": "4.4.0"
   },
   "engines": {
     "node": ">=12"
