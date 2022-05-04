@@ -43,8 +43,8 @@
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
     "@aws-sdk/client-ssm": "3.78.0",
-    "@babel/core": "7.17.5",
-    "@babel/preset-env": "7.16.11",
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
     "@babel/preset-typescript": "7.16.7",
     "@shelf/eslint-config": "0.27.1",
     "@shelf/prettier-config": "1.0.0",
