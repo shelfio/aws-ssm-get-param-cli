@@ -24,38 +24,30 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "post-commit": "git update-index --again"
-    }
-  },
   "lint-staged": {
     "*.{html,md,yml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "*.{js,ts,json}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
-    "@aws-sdk/client-ssm": "3.78.0",
+    "@aws-sdk/client-ssm": "3.85.0",
     "@babel/core": "7.17.10",
     "@babel/preset-env": "7.17.10",
     "@babel/preset-typescript": "7.16.7",
-    "@shelf/eslint-config": "0.27.1",
+    "@shelf/eslint-config": "2.16.2",
     "@shelf/prettier-config": "1.0.0",
     "@types/node": "12",
-    "eslint": "8.14.0",
-    "husky": "4.3.8",
-    "lint-staged": "12.3.5",
-    "prettier": "2.5.1",
+    "eslint": "8.15.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.4.1",
+    "prettier": "2.6.2",
     "typescript": "4.6.4",
-    "webpack": "5.19.0",
-    "webpack-cli": "4.4.0"
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2"
   },
   "engines": {
     "node": ">=12"
