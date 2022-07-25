@@ -32,16 +32,20 @@
       "eslint --fix"
     ]
   },
+  "babel": {
+    "extends": "@shelf/babel-config/backend"
+  },
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
     "@aws-sdk/client-ssm": "3.121.0",
     "@babel/core": "7.18.6",
     "@babel/preset-env": "7.18.6",
     "@babel/preset-typescript": "7.18.6",
-    "@shelf/eslint-config": "2.18.0",
+    "@shelf/babel-config": "1.0.2",
+    "@shelf/eslint-config": "2.21.0",
     "@shelf/prettier-config": "1.0.0",
-    "@types/node": "12",
-    "eslint": "8.19.0",
+    "@types/node": "16",
+    "eslint": "8.20.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
@@ -50,7 +54,7 @@
     "webpack-cli": "4.10.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
