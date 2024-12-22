@@ -45,7 +45,7 @@
     "@shelf/eslint-config": "2.21.0",
     "@shelf/prettier-config": "1.0.0",
     "@types/node": "16",
-    "eslint": "8.56.0",
+    "eslint": "8.57.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
     "prettier": "2.8.8",
